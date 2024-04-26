@@ -1,0 +1,11 @@
+/**
+ * Search University Program admin menu Stylesheet
+ */
+
+#toplevel_page_search_university_program .wp-menu-image img {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 9px 9px;
+}

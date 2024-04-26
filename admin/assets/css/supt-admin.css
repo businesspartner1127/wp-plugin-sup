@@ -1,0 +1,87 @@
+/**
+ * Search University Program admin custom Stylesheet
+ */
+
+#supt_wrap {
+	max-width: 1200px;
+    margin: 25px 40px 0 20px;
+}
+
+.supt_badge {
+    background: url('../imgs/cap.png') no-repeat center center;
+    background-size: 100% auto;
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    width: 360px;
+    height: 220px;
+}
+
+#supt_wrap h1 {
+    color: #333333;
+    font-size: 2.8em;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 95px;
+}
+
+.supt_content {
+	padding: 42px 0 25px;
+}
+
+.supt_content span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.supt_short_title {
+	line-height: 1.5;
+    color: #23282d;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-right: 32px;
+}
+
+.supt_short_text {
+	color: #444;
+	line-height: 1.5;
+	min-width: 150px;
+	font-style: italic;
+	font-size: 1.3em;
+    font-style: italic;
+    font-weight: 600;
+    margin-right: 32px;
+}
+
+.supt_short_copy {
+	min-width: 75px;
+}
+
+.supt_shortcode {
+	display: block;
+	width: 100%;
+	letter-spacing: 0.35px;
+	font-weight: 600;
+}
+
+#supt_upload_wrap {
+	max-width: 1200px;
+    margin: 25px 40px 0 20px;
+}
+
+#supt_upload_wrap h1 {
+    color: #333333;
+    font-size: 2.8em;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin: 0;
+    padding-top: 35px;
+    padding-bottom: 12px;
+}
+
+.supt_upload_content {
+    padding-top: 21px;
+}

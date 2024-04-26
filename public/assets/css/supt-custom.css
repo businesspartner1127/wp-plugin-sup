@@ -1,0 +1,159 @@
+/**
+ * Search University Program frontend custom Stylesheet
+ */
+
+#supt_search_form_wrapper * {
+	color: #000;
+	line-height: 1.5;
+	box-sizing: border-box;
+	outline: none;
+	font-family: helvetica, arial, sans-serif !important;
+}
+
+#supt_search_form_wrapper {
+	background: rgba(17, 25, 54, 0.9);
+	padding: 35px 32px 20px;
+	border-radius: 10px;
+}
+
+#supt_search_form_wrapper h2 {
+	color: #fff;
+    font-size: 24px;
+    line-height: 39px;
+    font-weight: 500;
+    padding-bottom: 21px;
+    letter-spacing: 0.5px;
+}
+
+#supt_search_form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: relative;
+}
+
+#supt_search_form input {
+	font-size: 16px;
+	padding: 16px;
+	padding-left: 27px;
+	border-radius: 10px;
+	color: #808080;
+	margin-bottom: 15px;
+}
+
+#supt_search_form input:focus, #supt_search_form input:active {
+	border: 1px solid transparent !important;
+}
+
+#supt_search_form input.error {
+	border-color: red !important;
+}
+
+#supt_search_form input.error:focus, #supt_search_form input.error:active {
+	border-color: red !important;
+}
+
+#supt_program {
+	width: calc(60% - 75px);
+}
+
+#supt_city {
+	width: calc(40% - 75px);
+}
+
+.autocomplete {
+	display: none;
+	position: absolute;
+	top: 60px;
+	width: calc(60% - 75px);
+	box-shadow: 0 4px 8px rgba(63, 92, 110, .15);
+    background: #fff;
+    border-radius: 2px;
+    padding: 6px 0;
+    left: 0;
+    z-index: 999;
+}
+
+.autocomplete.active {
+	display: block;
+}
+
+#auto_city.active {
+	left: calc(60% - 50px);
+	width: calc(40% - 75px);
+}
+
+#supt_search_form .auto_list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	max-height: 260px;
+	overflow: auto;
+}
+
+#supt_search_form .auto_list li {
+	padding: 5px 12px 5px 27px;
+	font-size: 16px;
+	color: #05293c;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+#supt_search_form .auto_list li:hover {
+	background: #f95c39;
+	color: #fff;
+}
+
+#supt_search_form #supt_submit {
+	width: 100px;
+	border: none !important;
+	color: #fff;
+	padding: 0;
+	text-align: center;
+	background: #00ad5f;
+	font-weight: 600;
+}
+
+#supt_search_form #supt_submit:hover {
+	background: #00994b;
+}
+
+#supt_blank_wrapper, #supt_blank {
+	display: none;
+}
+
+
+/* Web Developer Custom Media Query */
+
+@media screen and (max-width: 780px) {
+
+#supt_search_form {
+	justify-content: center;
+}
+
+#supt_program {
+	width: 100%;
+}
+
+#supt_city {
+	width: 100%;
+}
+
+#supt_search_form #supt_submit {
+	width: 100%;
+	margin-top: 12px;
+	padding: 12px 27px;
+}
+
+.autocomplete {
+	width: 100%;
+}
+
+#auto_city.active {
+	left: 0;
+	top: 135px;
+	width: 100%;
+}
+
+}
